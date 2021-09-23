@@ -37,6 +37,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'timezone_field',
+
+    'movie.apps.MovieConfig',
+    'kdm.apps.KdmConfig',
+    'theater.apps.TheaterConfig',
 ]
 
 MIDDLEWARE = [
@@ -105,7 +111,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'Europa/Moscow'
+TIME_ZONE = 'Europe/Moscow'
 
 USE_I18N = True
 
